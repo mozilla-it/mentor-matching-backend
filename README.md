@@ -88,7 +88,7 @@ mutation {
   findMentorRankings(mentor: "dummy@mentor.com") {
     id,
     mentor,
-		learner,
+    learner,
     ranking
   }
 }
