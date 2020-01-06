@@ -1,5 +1,5 @@
 # Backend serving Mentor-Mentee-Matching
-This project provides a GraphQL endpoint for updating and retrieving Mentor-Mentee mataches. 
+This project provides a GraphQL endpoint for updating and retrieving Mentor-Mentee matches. 
 It uses a Flask, SQLAlchemy (BigQuery) and Graphene stack deployed on Google Cloud using Cloud Functions.
 
 ## Installing Requirements
