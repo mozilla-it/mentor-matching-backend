@@ -370,9 +370,7 @@ class Ranker():
 
 def main():
 	naiveranker = Ranker()
-	#naiveranker.rank_mentors('sclements@mozilla.com')
-	#naiveranker.rank_learners('plawless@mozilla.com')
-		
+	
 
 if __name__ == '__main__':
 	main()
