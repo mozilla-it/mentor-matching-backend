@@ -121,7 +121,9 @@ mutation {
 Below are the query field definitions.
 ```
 ts: datetime of when user submitted request, string format "YYYY-MM-DD HH:mm:ss" in UTC
+
 role: "Learner" if calling createOrUpdateLearner, "Mentor" if calling createOrUpdateMentor (to be removed in future version)
+
 availability: comma-delimited string of any of the following values (change to custom granularity and convert historical data in future version)
 {
 00:00 - 03:00 UTC (8:00-11:00 Taiwan) (4pm-7pm US/Pacific) (1:00-4:00 CEST)
@@ -131,6 +133,7 @@ availability: comma-delimited string of any of the following values (change to c
 18:00 - 21:00 UTC (2:00-5:00 Taiwan) (10am-1pm US/Pacific) (19:00-22:00 CEST)
 21:00 - 00:00 UTC (5:00-8:00 Taiwan) (1pm-4pm US/Pacific) (22:00-1:00 CEST)
 }
+
 orgLevel: one of the following values (remove this question from UI in future version)
 {
 M3
@@ -144,6 +147,7 @@ P5
 P6
 P7
 }
+
 org: one of the following values
 {
 Emerging Technology
@@ -151,6 +155,7 @@ Firefox
 IT
 "Other Value Provided by user"
 }
+
 interest or expertise: comma-delimited string of any of the following values
 {
 Technical Leadership
@@ -161,6 +166,8 @@ Time Management
 Technial Skills
 "Other Value Provided by user"
 }
+
 changeTrack: value between 1 and 5
+
 outsideOrg: value between 1 and 3
 ```
