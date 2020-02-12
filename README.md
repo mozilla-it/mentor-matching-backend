@@ -184,12 +184,12 @@ Learners and mentors only have a non-zero score if they meet the following const
 3. They cannot match to something within the same reporting hierarchy.
 
 For a given learner, mentors are ranked by 
-1. # of intersecting interests to expertise. Range [0-7]
+1. Count of intersecting interests to expertise. Range [0-7]
 2. If learner expresses interest in changing track then higher preference will be given to mentors not in learner's track. Range [1,5]
 3. Learner can express interest in a mentor outside their org. Range [1,3]
 4. Additional points are added for specific requests including gender or race preference, career growth, and remotee. [Currently only in deprecated version]
 5. Specific mentor requests are immediately assigned a score of 50. [Currently only in deprecated version]
 
 For a given mentor, learners are ranked by 
-1. # of intersecting interests to expertise. Range [0-7]
+1. Count of intersecting interests to expertise. Range [0-7]
 2. Mentor can express interest in a learner outside their org. Range [1,3]
